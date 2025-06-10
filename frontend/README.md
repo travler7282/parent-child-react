@@ -1,6 +1,8 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. The template has been modified to include a parent control, App, and a child control SearchBox that allows the parent to handle changes in the child when the search terms change in the child, the parent is update by calling the event handler. The parent then refreshes the data and updates the searchResults which refreshes the child SearchBox with the new search results.
+
+All code for the frontend is located in the 'frontend' folder within the repository. More examplesmay be coming in the future.
 
 Currently, two official plugins are available:
 
